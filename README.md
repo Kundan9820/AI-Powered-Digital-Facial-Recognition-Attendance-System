@@ -1,49 +1,23 @@
-# Digital-Facial-Recognisation-Attendance-System
+## 📖 Description
 
-<img width="1919" height="993" alt="image" src="https://github.com/user-attachments/assets/e5b58429-70fa-4230-8d5c-47fc37f210e5" />
+The **AI-Powered Digital Facial Recognition Attendance System** is a smart web-based application that automates attendance management using artificial intelligence and computer vision. The system captures student faces through a webcam, detects and recognizes them in real time, and automatically records attendance in a secure SQLite database.
 
-The Digital Facial Recognition Attendance System is an advanced, automated system designed to track and manage attendance efficiently using facial recognition technology 🙂🔍. Unlike traditional methods (manual registers 📝 or RFID cards 💳), this system uses computer vision 🤖 and AI 🧠 to identify individuals in real-time ⏱️, ensuring accuracy ✅, security 🔐, and time-saving management ⏳.
+Built with **Flask**, **OpenCV**, **MediaPipe**, and **Scikit-learn**, the application provides an intuitive dashboard for managing students, training the face recognition model, viewing attendance records, tracking analytics, and exporting reports as CSV files.
 
-✨ Key Features
+### ✨ Key Features
+- 👤 Student registration with face capture
+- 📷 Real-time face detection and recognition
+- 🤖 AI-powered model training using Machine Learning
+- ✅ Automatic attendance marking
+- 📊 Attendance dashboard with statistics and charts
+- 📁 Attendance history with daily, weekly, and monthly filters
+- 📥 Export attendance records to CSV
+- 💾 SQLite database for secure data storage
+- 🌐 Responsive web interface built with Flask, HTML, CSS, and JavaScript
 
-Facial Recognition 🙂🔍: Utilizes AI and deep learning 🧠📊 to detect and recognize faces in real-time. Each person is uniquely identified to prevent proxy attendance 🚫.
-
-Automated Attendance Logging 🖥️✅: Marks attendance automatically, eliminating manual entry errors.
-
-Database Integration 💾📂: Stores records securely (SQLite/MySQL) for easy retrieval, analysis 📈, and reporting.
-
-User Management 👤⚙️: Admins can add, update, or remove users along with facial data.
-
-Reporting & Analytics 📊🗂️: Generates daily, weekly, or monthly attendance reports and visual graphs for monitoring trends.
-
-Security & Accuracy 🔐🎯: Works even in varied lighting 🌙💡 and with masks 😷 or glasses 🕶️.
-
-GUI Dashboard 🖥️📋: Interactive dashboard for admins/teachers to manage attendance and view stats.
-
-Optional Notifications ✉️📱: Can send email/SMS alerts about attendance status.
-
-📍 Applications
-
-🏫 Schools, colleges, and universities
-🏢 Corporate offices for employee tracking
-🎓 Workshops, seminars, and training programs
-
-🛠️ Technology Stack
-
-Programming Language: Python 🐍
-
-Libraries/Frameworks: OpenCV 📷, Mediapipe, RandomForestClassifier 🧩, Face Recognition 🙂🔍, Flask 🌐
-
-Database: SQLite3 💾
-
-GUI: HTML| CSS | javascript | Web-based dashboard 🖥️
-
-Optional: Email/SMS APIs ✉️📱
-
-💡 Benefits
-
-✅ Reduces manual effort & paperwork
-✅ Ensures accuracy & prevents fraudulent attendance
-✅ Provides real-time data & analytics 📈
-✅ Scalable for institutions of any size 🌍
-"# AI-Powered-Digital-Facial-Recognition-Attendance-System" 
+### 🛠️ Tech Stack
+- **Backend:** Python, Flask
+- **Machine Learning:** Scikit-learn (Random Forest)
+- **Computer Vision:** OpenCV, MediaPipe
+- **Database:** SQLite
+- **Frontend:** HTML, CSS, JavaScript, Bootstrap
